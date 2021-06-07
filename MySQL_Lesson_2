@@ -1,16 +1,1 @@
-Task_1.
-[client]
-host=localhost
-user=root
-password=******
-
-Task_2.
-
-create database example;
-use example;
-create table users (id int, name text);
-
-Task_3.
-mysqldump -u root -p example > sample.sql
-mysql -u root -p sample < sample.sql  
 
